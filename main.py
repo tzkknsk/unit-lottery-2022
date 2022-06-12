@@ -66,7 +66,7 @@ def convert_df(df):
 csv = convert_df(df)
 
 st.download_button(
-     label="Download data as CSV",
+     label="回答結果を出力（CSV）",
      data=csv,
      file_name= f'UnitLottery_Answer_{ID}.csv',
      mime='text/csv',
