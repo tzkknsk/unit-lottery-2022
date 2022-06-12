@@ -36,9 +36,9 @@ def buttom():
      (A, B))
 
     if choice == A:
-        answer_dict[f"{i}_{j}"] = 0
+        answer_dict[f"{i}_{j}"] = "A"
     else:
-        answer_dict[f"{i}_{j}"] = 1
+        answer_dict[f"{i}_{j}"] = "B"
 
 for i in range(1, 25):
     for j in range(1, 7):
